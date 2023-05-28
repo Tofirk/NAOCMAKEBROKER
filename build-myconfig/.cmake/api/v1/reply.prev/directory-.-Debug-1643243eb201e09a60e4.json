@@ -1,0 +1,132 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_qi_install_internal",
+			"qi_install_data",
+			"include",
+			"find_package",
+			"qi_install_target",
+			"qi_create_bin"
+		],
+		"files" : 
+		[
+			"C:/Python27/share/cmake/qibuild/internal/install.cmake",
+			"C:/Python27/share/cmake/qibuild/install.cmake",
+			"C:/Python27/share/cmake/qibuild/general.cmake",
+			"C:/Python27/share/cmake/qibuild/qibuild-config.cmake",
+			"CMakeLists.txt",
+			"C:/Python27/share/cmake/qibuild/target.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 33,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 138,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 158,
+				"parent" : 10
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "share/qi",
+			"paths" : 
+			[
+				""
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "runtime",
+			"destination" : "share/qi",
+			"paths" : 
+			[
+				"build-myconfig/path.conf"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"sdk/bin/NaoCmakeBroker_d.exe"
+			],
+			"targetId" : "NaoCmakeBroker::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

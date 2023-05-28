@@ -1,0 +1,5 @@
+C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NaoCmakeBroker.dir
+C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NAO.dir
+C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/INSTALL.dir
+C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/ZERO_CHECK.dir

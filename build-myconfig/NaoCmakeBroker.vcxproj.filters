@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\T24IUX3VL4\qrc_img.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\4b53b080d9d386d8f3d885b2d5c0e3d0\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\dc888c4eb22f621213a46a8b1ff39d13\qrc_img.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.ui" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\img\img.qrc" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NaoCmakeBroker_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FF212C80-7C0E-363F-A8E4-C52EA7641395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{477CCD89-6F5E-313B-9121-65B2F7AF67D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6EA15F9B-0F58-309A-A796-547CA0B4F697}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

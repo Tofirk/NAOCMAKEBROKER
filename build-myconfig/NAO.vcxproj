@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37A40031-60B3-3542-A9F5-2F59CBAAA804}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NAO</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NAO.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NAO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NAO.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NAO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NAO.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NAO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NAO.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NAO</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Debug;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Debug;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Debug;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target NAO</Message>
+      <Command>setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NAO_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/NAO_autogen/autouic_Debug.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Release;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Release;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Release;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target NAO</Message>
+      <Command>setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NAO_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/NAO_autogen/autouic_Release.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_MinSizeRel;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_MinSizeRel;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_MinSizeRel;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target NAO</Message>
+      <Command>setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NAO_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/NAO_autogen/autouic_MinSizeRel.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_RelWithDebInfo;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_ALL_DYN_LINK;QI_TOOLCHAIN_TARGET=None;QI_TOOLCHAIN_TARGET_NONE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_RelWithDebInfo;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_RelWithDebInfo;C:\naoqi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target NAO</Message>
+      <Command>setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/NAO_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/NAO_autogen/autouic_RelWithDebInfo.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\b0c22405374241bc3668c60e9963eea4\autouic_(CONFIG).stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.ui;C:\Qt\5.15.2\msvc2015_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_Debug.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.ui;C:\Qt\5.15.2\msvc2015_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_Release.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.ui;C:\Qt\5.15.2\msvc2015_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_MinSizeRel.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\mainwindow.ui;C:\Qt\5.15.2\msvc2015_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_RelWithDebInfo.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER -BC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig --check-stamp-file C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Python27\share\cmake\qibuild\codegen.cmake;C:\Python27\share\cmake\qibuild\find.cmake;C:\Python27\share\cmake\qibuild\flags.cmake;C:\Python27\share\cmake\qibuild\general.cmake;C:\Python27\share\cmake\qibuild\gettext.cmake;C:\Python27\share\cmake\qibuild\git.cmake;C:\Python27\share\cmake\qibuild\install.cmake;C:\Python27\share\cmake\qibuild\internal\glob.cmake;C:\Python27\share\cmake\qibuild\internal\install.cmake;C:\Python27\share\cmake\qibuild\internal\layout.cmake;C:\Python27\share\cmake\qibuild\internal\list.cmake;C:\Python27\share\cmake\qibuild\internal\stage.cmake;C:\Python27\share\cmake\qibuild\internal\tests.cmake;C:\Python27\share\cmake\qibuild\internal\uselib.cmake;C:\Python27\share\cmake\qibuild\log.cmake;C:\Python27\share\cmake\qibuild\option.cmake;C:\Python27\share\cmake\qibuild\python.cmake;C:\Python27\share\cmake\qibuild\qibuild-config.cmake;C:\Python27\share\cmake\qibuild\set.cmake;C:\Python27\share\cmake\qibuild\stage.cmake;C:\Python27\share\cmake\qibuild\subdirectory.cmake;C:\Python27\share\cmake\qibuild\submodule.cmake;C:\Python27\share\cmake\qibuild\target.cmake;C:\Python27\share\cmake\qibuild\tests.cmake;C:\Python27\share\cmake\qibuild\version.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Tofirk\.local\share\qi\toolchains\mytoolchain\toolchain-mytoolchain.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\dependencies.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\img\img.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER -BC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig --check-stamp-file C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Python27\share\cmake\qibuild\codegen.cmake;C:\Python27\share\cmake\qibuild\find.cmake;C:\Python27\share\cmake\qibuild\flags.cmake;C:\Python27\share\cmake\qibuild\general.cmake;C:\Python27\share\cmake\qibuild\gettext.cmake;C:\Python27\share\cmake\qibuild\git.cmake;C:\Python27\share\cmake\qibuild\install.cmake;C:\Python27\share\cmake\qibuild\internal\glob.cmake;C:\Python27\share\cmake\qibuild\internal\install.cmake;C:\Python27\share\cmake\qibuild\internal\layout.cmake;C:\Python27\share\cmake\qibuild\internal\list.cmake;C:\Python27\share\cmake\qibuild\internal\stage.cmake;C:\Python27\share\cmake\qibuild\internal\tests.cmake;C:\Python27\share\cmake\qibuild\internal\uselib.cmake;C:\Python27\share\cmake\qibuild\log.cmake;C:\Python27\share\cmake\qibuild\option.cmake;C:\Python27\share\cmake\qibuild\python.cmake;C:\Python27\share\cmake\qibuild\qibuild-config.cmake;C:\Python27\share\cmake\qibuild\set.cmake;C:\Python27\share\cmake\qibuild\stage.cmake;C:\Python27\share\cmake\qibuild\subdirectory.cmake;C:\Python27\share\cmake\qibuild\submodule.cmake;C:\Python27\share\cmake\qibuild\target.cmake;C:\Python27\share\cmake\qibuild\tests.cmake;C:\Python27\share\cmake\qibuild\version.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Tofirk\.local\share\qi\toolchains\mytoolchain\toolchain-mytoolchain.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\dependencies.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\img\img.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER -BC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig --check-stamp-file C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Python27\share\cmake\qibuild\codegen.cmake;C:\Python27\share\cmake\qibuild\find.cmake;C:\Python27\share\cmake\qibuild\flags.cmake;C:\Python27\share\cmake\qibuild\general.cmake;C:\Python27\share\cmake\qibuild\gettext.cmake;C:\Python27\share\cmake\qibuild\git.cmake;C:\Python27\share\cmake\qibuild\install.cmake;C:\Python27\share\cmake\qibuild\internal\glob.cmake;C:\Python27\share\cmake\qibuild\internal\install.cmake;C:\Python27\share\cmake\qibuild\internal\layout.cmake;C:\Python27\share\cmake\qibuild\internal\list.cmake;C:\Python27\share\cmake\qibuild\internal\stage.cmake;C:\Python27\share\cmake\qibuild\internal\tests.cmake;C:\Python27\share\cmake\qibuild\internal\uselib.cmake;C:\Python27\share\cmake\qibuild\log.cmake;C:\Python27\share\cmake\qibuild\option.cmake;C:\Python27\share\cmake\qibuild\python.cmake;C:\Python27\share\cmake\qibuild\qibuild-config.cmake;C:\Python27\share\cmake\qibuild\set.cmake;C:\Python27\share\cmake\qibuild\stage.cmake;C:\Python27\share\cmake\qibuild\subdirectory.cmake;C:\Python27\share\cmake\qibuild\submodule.cmake;C:\Python27\share\cmake\qibuild\target.cmake;C:\Python27\share\cmake\qibuild\tests.cmake;C:\Python27\share\cmake\qibuild\version.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Tofirk\.local\share\qi\toolchains\mytoolchain\toolchain-mytoolchain.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\dependencies.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\img\img.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER -BC:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig --check-stamp-file C:/Users/Tofirk/Documents/QT/NAOCMAKEBROKER/build-myconfig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Python27\share\cmake\qibuild\codegen.cmake;C:\Python27\share\cmake\qibuild\find.cmake;C:\Python27\share\cmake\qibuild\flags.cmake;C:\Python27\share\cmake\qibuild\general.cmake;C:\Python27\share\cmake\qibuild\gettext.cmake;C:\Python27\share\cmake\qibuild\git.cmake;C:\Python27\share\cmake\qibuild\install.cmake;C:\Python27\share\cmake\qibuild\internal\glob.cmake;C:\Python27\share\cmake\qibuild\internal\install.cmake;C:\Python27\share\cmake\qibuild\internal\layout.cmake;C:\Python27\share\cmake\qibuild\internal\list.cmake;C:\Python27\share\cmake\qibuild\internal\stage.cmake;C:\Python27\share\cmake\qibuild\internal\tests.cmake;C:\Python27\share\cmake\qibuild\internal\uselib.cmake;C:\Python27\share\cmake\qibuild\log.cmake;C:\Python27\share\cmake\qibuild\option.cmake;C:\Python27\share\cmake\qibuild\python.cmake;C:\Python27\share\cmake\qibuild\qibuild-config.cmake;C:\Python27\share\cmake\qibuild\set.cmake;C:\Python27\share\cmake\qibuild\stage.cmake;C:\Python27\share\cmake\qibuild\subdirectory.cmake;C:\Python27\share\cmake\qibuild\submodule.cmake;C:\Python27\share\cmake\qibuild\target.cmake;C:\Python27\share\cmake\qibuild\tests.cmake;C:\Python27\share\cmake\qibuild\version.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.2\msvc2015_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Tofirk\.local\share\qi\toolchains\mytoolchain\toolchain-mytoolchain.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\dependencies.cmake;C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\img\img.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Debug\ui_mainwindow.h" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_Debug.stamp">
+    </None>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_Release\ui_mainwindow.h" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_Release.stamp">
+    </None>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_MinSizeRel\ui_mainwindow.h" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_MinSizeRel.stamp">
+    </None>
+    <ClCompile Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\include_RelWithDebInfo\ui_mainwindow.h" />
+    <None Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\NAO_autogen\autouic_RelWithDebInfo.stamp">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Tofirk\Documents\QT\NAOCMAKEBROKER\build-myconfig\ZERO_CHECK.vcxproj">
+      <Project>{9C08BD38-37F4-392D-8740-7AB73B67516A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
